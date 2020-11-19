@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Podcast Channel</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+
+    <header class="header">
+      <a href="#"><img src="imagenes/logo.svg" alt="logo" class="icono" /></a>
+      <input class="menu-boton" type="checkbox" id="menu-boton" />
+      <label class="menu-icono" for="menu-boton"
+        ><span class="nav-icon"></span></label>
+        
+      <nav>
+        <ul class="menu">
+          <li><a href="#episodios">EPISODIOS</a></li>
+          <li><a href="#nosotros">NOSOTROS</a></li>
+          <li><a href="#fotos">ENTREVISTAS</a></li>
+          <li><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <!-- Hola Mundo -->
+
+      <section class="hola_mundo">
+        <h1>
+          Hello <span class="linea">world</span> pale blue dot<span
+            class="punto"
+            >.</span
+          >
+        </h1>
+
+        <p class="cambio_texto">
+          <!-- "El portal de podcasts que explora el mundo de la programación y la
+          tecnología. Nuevos episodios, todos los jueves cada 15 días."
+
+          "Un podcast que explora el mundo de la programación.
+          Nuevos episodios, todos los jueves cada 15 días."-->
+        </p>
+      </section>
+      <section class="boton" id="boton">
+        <h2><button type="button">CONOCÉ MÁS</button></h2>
+      </section>
+
+      <!-- Episodios  -->
+
+      <section id="episodios">
+        <h2 class="episodios">Episodios</h2>
+
+        <div class="iframes">
+          <iframe
+            class="fr"
+            src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="fr"
+            src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="fr"
+            src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="fr"
+            src="https://open.spotify.com/embed-podcast/episode/5mddqHiI96V0ZMdMidn3WW"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Telefono -->
+
+      <section id="telefono">
+        <div>
+          <h6>
+            <img class="img_telefono" src="imagenes/phone.png" alt="Telefono" />
+          </h6>
+        </div>
+      </section>
+
+      <section id="nosotros">
+        <div class="texto_nosotros">
+          <h2>De dónde venimos</h2>
+
+          <p>
+            Our posturings, our imagined self-importance, the delusion that we
+            have some privileged position in the Universe, are challenged by
+            this point of pale light.
+            <br />
+            <br />
+            Our planet is a lonely speck in the great enveloping cosmic dark. In
+            our obscurity, in all this vastness, there is no hint that help will
+            come from elsewhere to save us from ourselves.
+          </p>
+        </div>
+      </section>
+
+      <!-- Fotos -->
+
+      <section id="fotos">
+        <h2>Invitadas/os estelares</h2>
+
+        <div class="galeria_fotos">
+          <img src="imagenes/grace-hopper.png" alt="Grace Hopper" />
+          <img src="imagenes/Katie-Bouman.png" alt="Katie Bouman" />
+          <img src="imagenes/Margaret_Hamilton.png" alt="Margaret Hamilton" />
+          <img src="imagenes/An-Erac.png" alt="An-Erac" />
+          <img src="imagenes/Computer.png" alt="ENIAC" />
+          <img src="imagenes/susan-kare.png" alt="Susan Kare" />
+        </div>
+      </section>
+
+      <!-- Temas -->
+
+      <section id="topicos">
+        <h2>Algunos de nuestros temas</h2>
+
+        <div class="contenedor_iconos">
+          <div class="iconos">
+            <img src="imagenes/icon1.svg" alt="Trabajo remoto" />
+            <h3>Trabajo remoto</h3>
+          </div>
+
+          <div class="iconos">
+            <img src="imagenes/icon2.svg" alt="Repensando la programacion" />
+            <h3>Repensando la programación</h3>
+          </div>
+
+          <div class="iconos">
+            <img src="imagenes/icon3.svg" alt="Bases del codigo" />
+            <h3>Bases del código</h3>
+          </div>
+
+          <div class="iconos">
+            <img src="imagenes/icon4.svg" alt="Seguridad informatica" />
+            <h3>Seguridad informática</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Novedades -->
+
+      <section id="novedades">
+        <h2>¿Querés las últimas novedades?</h2>
+
+        <button type="button" class="boton_novedades">
+          ESCUCHÁ LOS EPISODIOS
+        </button>
+      </section>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="footer1">
+        <p>© 2020 — Hello blue pale dot</p>
+
+        <div class="redes_sociales">
+          <a href="https://www.spotify.com " target="_blank"
+            ><i class="fab fa-spotify"></i
+          ></a>
+          <a href="https://www.instagram.com " target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com " target="_blank">
+            <i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://es-la.facebook.com " target="_blank">
+            <i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://web.telegram.org " target="_blank">
+            <i class="fab fa-telegram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
